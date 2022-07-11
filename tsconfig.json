@@ -11,9 +11,9 @@
     "esModuleInterop": true,
     "isolatedModules": true,
     "noImplicitAny": true,
-    "jsx":"preserve", //防止出现无法使用 JSX，除非提供了 “–jsx
+    "jsx": "preserve", //防止出现无法使用 JSX，除非提供了 “–jsx
     "paths": {
-      "@/*":["src/*"]
+      "@/*": ["src/*"]
     }
   },
   // "exclude": ["node_modules"],

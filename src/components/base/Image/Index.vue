@@ -1,7 +1,20 @@
 <template>
-  <img v-if="!href" style="width: 100%; height: auto; font-size: 0" :style="style" :src="src" loading="lazy" :alt="alt" />
+  <img
+    v-if="!href"
+    style="width: 100%; height: auto; font-size: 0"
+    :style="style"
+    :src="src"
+    loading="lazy"
+    :alt="alt"
+  />
   <a v-else target="_blank" :href="href">
-    <img style="width: 100%; height: auto; font-size: 0" :style="style" :src="src" loading="lazy" :alt="alt" />
+    <img
+      style="width: 100%; height: auto; font-size: 0"
+      :style="style"
+      :src="src"
+      loading="lazy"
+      :alt="alt"
+    />
   </a>
 </template>
 
@@ -11,7 +24,7 @@ import { props } from './interface'
 
 export default defineComponent({
   name: 'Image',
-  props,
+  props
 })
 </script>
 

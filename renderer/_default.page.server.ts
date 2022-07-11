@@ -14,9 +14,11 @@ async function render(pageContext: PageContextBuiltIn & PageContext) {
   const appHtml = await renderToString(app)
 
   // See https://vite-plugin-ssr.com/head
-  const { documentProps,pageProps } = pageContext
+  const { documentProps, pageProps } = pageContext
   const title = (documentProps && documentProps.title) || 'Vite SSR app'
-  const desc = (documentProps && documentProps.description) || 'App using Vite + vite-plugin-ssr'
+  const desc =
+    (documentProps && documentProps.description) ||
+    'App using Vite + vite-plugin-ssr'
 
   const documentHtml = escapeInject`
       <!DOCTYPE html
@@ -51,7 +53,9 @@ async function render(pageContext: PageContextBuiltIn & PageContext) {
           style="display:none; font-size:0px; line-height:0px; max-height:0px; max-width:0px; opacity:0; overflow:hidden; visibility:hidden; mso-hide:all;">*|MC_PREVIEW_TEXT|*</span>
         <!--<![endif]-->
         <!--*|END:IF|*-->
-        <table width="${import.meta.env.VITE_PAGE_WIDTH}" cellpadding="0" cellspacing="0" style="
+        <table width="${
+          import.meta.env.VITE_PAGE_WIDTH
+        }" cellpadding="0" cellspacing="0" style="
             border-collapse: collapse;
             border-spacing: 0;
             table-layout: auto;

@@ -1,5 +1,10 @@
 <template>
-  <a :href="href" target="_blank" style="text-decoration: none; display: inline-block" :style="style">
+  <a
+    :href="href"
+    target="_blank"
+    style="text-decoration: none; display: inline-block"
+    :style="style"
+  >
     <slot />
   </a>
 </template>
@@ -10,7 +15,7 @@ import { props } from './interface'
 
 export default defineComponent({
   name: 'Link',
-  props,
+  props
 })
 </script>
 

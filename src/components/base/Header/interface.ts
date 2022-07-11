@@ -15,18 +15,18 @@ export const headerProp = {
   style: {
     type: [String, Object] as PropType<CSSProperties | string>,
     required: false,
-    default: '',
+    default: ''
   },
   logoOption: {
     type: Object as PropType<LogoOption>,
     required: true,
-    default: () => {},
+    default: () => {}
   },
   navList: {
     type: Array as PropType<NavList[]>,
     required: true,
-    default: () => [],
-  },
+    default: () => []
+  }
 } as const
 
 export type HeaderProp = Partial<ExtractPropTypes<typeof headerProp>>

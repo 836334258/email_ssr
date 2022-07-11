@@ -14,7 +14,7 @@ export default defineComponent({
   data() {
     return {
       ...UsHeaderData.us,
-      ...UsFooterData.us,
+      ...UsFooterData.us
     }
   },
   components: components
