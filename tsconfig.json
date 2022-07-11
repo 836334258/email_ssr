@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": "./",
     "strict": true,
     "module": "ES2020",
     "moduleResolution": "Node",
@@ -7,8 +8,15 @@
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "types": ["vite/client"],
     "skipLibCheck": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "noImplicitAny": true,
+    "jsx":"preserve", //防止出现无法使用 JSX，除非提供了 “–jsx
+    "paths": {
+      "@/*":["src/*"]
+    }
   },
+  // "exclude": ["node_modules"],
   "ts-node": {
     "transpileOnly": true,
     "compilerOptions": {

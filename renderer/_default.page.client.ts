@@ -3,7 +3,8 @@ import { createApp } from './app'
 import type { PageContext } from './types'
 import type { PageContextBuiltInClient } from 'vite-plugin-ssr/client'
 
-hydrate()
+// 不注释会渲染两遍
+// hydrate()
 
 async function hydrate() {
   // We do Server Routing, but we can also do Client Routing by using `useClientRouter()`
