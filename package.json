@@ -6,7 +6,8 @@
     "server": "ts-node ./server",
     "server:prod": "cross-env NODE_ENV=production ts-node ./server",
     "email:ssr": "yarn vite build && yarn vite build --ssr && yarn vite-plugin-ssr prerender",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "clear": "rimraf node_modules yarn.lock"
   },
   "dependencies": {
     "@types/compression": "^1.7.2",
@@ -27,7 +28,8 @@
   "types": "./src/sfc.d.ts",
   "devDependencies": {
     "husky": "^8.0.1",
-    "lint-staged": "^13.0.3"
+    "lint-staged": "^13.0.3",
+    "rimraf": "^3.0.2"
   },
   "lint-staged": {
     "*.js": [
