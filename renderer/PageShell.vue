@@ -6,7 +6,6 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import components from '@/components'
 import UsHeaderData from '@/components/base/Header/data'
 import UsFooterData from '@/components/base/Footer/data'
 export default defineComponent({
@@ -16,7 +15,6 @@ export default defineComponent({
       ...UsHeaderData.us,
       ...UsFooterData.us
     }
-  },
-  components: components
+  }
 })
 </script>

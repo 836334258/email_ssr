@@ -1,33 +1,37 @@
 import { PropType, CSSProperties, Prop } from 'vue'
-
-export type AlignType = 'left' | 'center' | 'right'
+import { Align } from '../interface'
 
 export const props = {
   tableAlign: {
-    type: String as PropType<AlignType>
+    type: String as PropType<Align>,
+    default:''
   },
   bodyAlign: {
-    type: String as PropType<AlignType>
+    type: String as PropType<Align>,
+    default:''
   },
   bodyStyle: {
-    type: String
+    type: String,
+    default:''
   },
   bgColor: {
-    type: String
+    type: String,
+    default:''
   },
   width: {
-    type: String
+    type: String,
+    default:''
   },
   height: {
-    type: String
+    type: String,
+    default:''
   },
   href: {
     type: String,
-    required: true
+    default:''
   },
   style: {
     type: [String, Object] as PropType<CSSProperties | string>,
-    required: false,
     default: ''
   }
 } as const

@@ -1,9 +1,18 @@
-<template>123</template>
+<template>
+<locket-tr style="{background-color: 'red'; height: '200px';}"></locket-tr>
+</template>
 
-<script lang="ts">
+<script  lang="ts">
 import { defineComponent } from 'vue'
 
 export default defineComponent({
-  name: 'Index'
+  name: 'Index',
+  setup(){
+    return {
+      style:{
+        backgrounColor:'red'
+      }
+    }
+  }
 })
 </script>

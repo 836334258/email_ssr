@@ -1,5 +1,9 @@
 <template>
-  <LocketLink href="fdas">2</LocketLink>
+  <LocketTable>
+    <LocketTr>
+      <LocketTd align="right">1234</LocketTd>
+    </LocketTr>
+  </LocketTable>
 </template>
 
 <script lang="ts">
