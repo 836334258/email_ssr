@@ -61,24 +61,24 @@
             <tbody>
               <tr>
                 <td
-                  align="center"
+                  :align="textAlign"
                   height="30px"
                   :width="item.width ? item.width : ''"
                   v-for="(item, index) in navList"
                   :key="index"
-                  style="background: #026fd1"
+                  :style="'background:'+background"
                 >
                   <a
                     :href="item.href"
                     style="
                       font-family: 'Roboto';
                       font-style: normal;
-                      font-weight: 500;
+                      font-weight: 600;
                       font-size: 16px;
                       line-height: 30px;
-                      color: #fff;
                       text-decoration: none;
                     "
+                    :style="'color:'+fontColor"
                     target="_blank"
                   >
                     {{ item.title }}
@@ -89,6 +89,15 @@
           </table>
         </td>
       </tr>
+      <locket-tr align="center">
+        <locket-td >
+          <locket-table align="center" bodyAlign="center" style="margin:0 auto">
+            <locket-tr height="11">
+              <locket-td><div style="width:626px;height:1px;background:rgba(27, 28, 30, 0.1);"></div></locket-td>
+            </locket-tr>
+          </locket-table>
+        </locket-td>
+      </locket-tr>
     </tbody>
   </table>
 </template>

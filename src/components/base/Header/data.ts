@@ -27,6 +27,33 @@ const headerData: Record<string, HeaderProp> = {
         width: '25%'
       }
     ]
+  },
+  de: {
+    textAlign:'center',
+    fontColor: '#333333',
+    background: '#fff',
+    logoOption: {
+      src: 'https://mcusercontent.com/1330f49e4060849e9bede15d3/images/191575b3-b8c8-3eb1-3b6b-a99484217f21.png',
+      href: 'https://flexispot.co.uk/'
+    },
+    navList: [
+      {
+        title: 'Höhenverstellbarer Schreibtisch',
+        href: 'https://www.flexispot.de/hoehenverstellbarer-schreibtisch.html'
+      },
+      {
+        title: 'Stuhl',
+        href: 'https://www.flexispot.de/stuhle.html'
+      },
+      {
+        title: 'FITNESS',
+        href: 'https://www.flexispot.de/fitness.html'
+      },
+      {
+        title: 'Bürozubehör',
+        href: 'https://www.flexispot.de/zubehoer-fuer-schreibtische.html'
+      }
+    ]
   }
 }
 

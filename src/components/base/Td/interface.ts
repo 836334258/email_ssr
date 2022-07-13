@@ -9,7 +9,8 @@ export const props = {
     type: [String,Object] as PropType<CSSProperties|string>
   },
   width:{
-    type:String
+    type:String,
+    default:'auto'
   },
   height:{
     type:String

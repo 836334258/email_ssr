@@ -1,5 +1,5 @@
 <template>
-  <LocketHeader :logo-option="logoOption" :nav-list="navList" />
+  <LocketHeader :textAlign="textAlign"  :background="background" :font-color="fontColor" :logo-option="logoOption" :nav-list="navList" />
   <slot />
   <LocketFooter :after-icon="afterIcon" :media-link="mediaLink" />
 </template>
@@ -12,8 +12,8 @@ export default defineComponent({
   name: 'PageShell',
   data() {
     return {
-      ...UsHeaderData.us,
-      ...UsFooterData.us
+      ...UsHeaderData.de,
+      ...UsFooterData.de
     }
   }
 })

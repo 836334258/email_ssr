@@ -20,11 +20,11 @@ export const props = {
   },
   width: {
     type: String,
-    default:''
+    default:'100%'
   },
   height: {
     type: String,
-    default:''
+    default:'100%'
   },
   href: {
     type: String,

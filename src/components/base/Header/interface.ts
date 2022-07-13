@@ -1,3 +1,4 @@
+import { Align } from './../interface';
 import { CSSProperties, ExtractPropTypes, PropType } from 'vue'
 
 export interface LogoOption {
@@ -16,6 +17,18 @@ export const headerProp = {
     type: [String, Object] as PropType<CSSProperties | string>,
     required: false,
     default: ''
+  },
+  background:{
+    type:String,
+    default:'#026fd1'
+  },
+  fontColor:{
+    type:String,
+    default:'#fff'
+  },
+  textAlign:{
+    type:String as PropType<Align>,
+    default:'center'
   },
   logoOption: {
     type: Object as PropType<LogoOption>,

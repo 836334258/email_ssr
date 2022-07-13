@@ -3,12 +3,13 @@ import { PropType, ExtractPropTypes } from 'vue'
 export interface AfterIcon {
   src: string
   title: string
-  href: string
+  width:string
+  href?: string
 }
 
 export interface MediaLink {
   src: string
-  href: string
+  href?: string
 }
 
 export const footerProp = {

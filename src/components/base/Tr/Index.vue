@@ -1,5 +1,5 @@
 <template>
-  <tr :align="align" :style="style"><slot/></tr>
+  <tr :height="height" :align="align" :style="style"><slot/></tr>
 </template>
 
 <script lang="ts">

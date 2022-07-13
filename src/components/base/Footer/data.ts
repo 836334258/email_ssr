@@ -45,6 +45,54 @@ const footerData: Record<string, FooterProp> = {
         href: 'https://t.me/flexispotit'
       }
     ]
+  },
+  de: {
+    afterIcon: [
+      {
+        src: 'https://mcusercontent.com/1330f49e4060849e9bede15d3/images/d81c87b4-cf4a-faac-aca3-f3c30a1278d4.png',
+        title: `Schneller<br />
+                Versand`,
+        width: '64px'
+      },
+      {
+        src: 'https://mcusercontent.com/1330f49e4060849e9bede15d3/images/959c2d89-ea4c-3907-44ce-005292e18c03.png',
+        title: `60 Tage<br /> 
+                Rückgaberecht`,
+        width: '64px'
+      },
+      {
+        src: 'https://mcusercontent.com/1330f49e4060849e9bede15d3/images/be20ecff-f242-6a8d-839c-ff51a0d5a8ba.png',
+        title: `Bis zu 10<br />
+        Jahre Garantie`,
+        width: '64px'
+      }
+    ],
+    mediaLink: [
+      {
+        src: 'https://www.fleximounts.com/wp-content/uploads/2022/01/social1.png',
+        href: 'https://www.instagram.com/flexispot.it/'
+      },
+      {
+        src: 'https://www.fleximounts.com/wp-content/uploads/2022/01/social2.png',
+        href: 'https://www.facebook.com/flexispot.nick/'
+      },
+      {
+        src: 'https://www.fleximounts.com/wp-content/uploads/2022/01/social3.png',
+        href: 'https://www.youtube.com/channel/UCn0ilTvzmGM3cknWXfcALdg'
+      },
+      {
+        src: 'https://www.fleximounts.com/wp-content/uploads/2022/01/social4.png',
+        href: 'https://twitter.com/flexispot_it'
+      },
+      {
+        src: 'https://mcusercontent.com/1330f49e4060849e9bede15d3/images/55dadd02-0ac0-acd9-7ca0-d5e172c493a9.png',
+        href: 'https://www.tiktok.com/@flexispotit'
+      },
+      {
+        src: 'https://mcusercontent.com/1330f49e4060849e9bede15d3/images/868481fe-1afe-d867-2195-20970828f5ad.png',
+        href: 'https://www.pinterest.com/FlexiSpot_Germany/'
+      }
+    ]
   }
 }
 

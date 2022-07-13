@@ -37,7 +37,7 @@
             >
               <tbody>
                 <tr>
-                  <td
+                  <!-- <td
                     valign="top"
                     style="
                       font-size: 0px;
@@ -57,7 +57,7 @@
                         margin: 0px auto;
                       "
                     ></p>
-                  </td>
+                  </td> -->
                 </tr>
                 <tr>
                   <td
@@ -71,7 +71,7 @@
                       mso-table-rspace: 0pt;
                     "
                   >
-                    <div style="max-width: 648px; margin: 0px auto">
+                    <div style="max-width: 720px; margin: 0px auto">
                       <table
                         border="0"
                         align="center"
@@ -98,20 +98,18 @@
                                 <a :href="item.href" target="_blank">
                                   <img
                                     :src="item.src"
-                                    width="40px"
+                                    :width="item.width"
                                     height="auto"
                                     alt=""
-                                    style="width: 40px; height: auto"
                                   />
                                 </a>
                               </template>
                               <template v-else>
                                 <img
                                   :src="item.src"
-                                  width="40px"
+                                  :width="item.width"
                                   height="auto"
                                   alt=""
-                                  style="width: 40px; height: auto"
                                 />
                               </template>
                             </td>
@@ -137,6 +135,11 @@
                     </div>
                   </td>
                 </tr>
+                <locket-tr>
+                  <locket-td>
+                    <locket-line margin="0" width="133px"></locket-line>
+                  </locket-td>
+                </locket-tr>
                 <tr>
                   <td
                     valign="top"
@@ -162,18 +165,20 @@
                       "
                     >
                       <tbody>
-                        <td
+                        <!-- <td
+                          width="46"
                           valign="top"
                           style="
+                            width:46px;
                             font-size: 0px;
                             word-break: break-word;
                             border-collapse: collapse;
                             mso-table-lspace: 0pt;
                             mso-table-rspace: 0pt;
                             background: #026ed1;
-                            height: 15px;
+                            height: 2px;
                           "
-                        ></td>
+                        ></td> -->
                       </tbody>
                     </table>
                     <table
@@ -239,6 +244,11 @@
                             "
                           ></td>
                         </tr>
+                        <locket-tr>
+                          <locket-td>
+                            <locket-line></locket-line>
+                          </locket-td>
+                        </locket-tr>
                         <tr>
                           <td height="80px"></td>
                         </tr>

@@ -5,6 +5,7 @@ import LocketFooter from '@/components/base/Footer/Index.vue'
 import LocketImage from '@/components/base/Image/Index.vue'
 import LocketTr from '@/components/base/Tr/Index.vue'
 import LocketTd from '@/components/base/Td/Index.vue'
+import LocketLine from '@/components/base/Line/Index.vue'
 declare module 'vue' {
   export interface GlobalComponents {
     LocketLink: typeof LocketLink
@@ -14,5 +15,6 @@ declare module 'vue' {
     LocketImage: typeof LocketImage
     LocketTr: typeof LocketTr
     LocketTd: typeof LocketTd
+    LocketLine: typeof LocketLine
   }
 }

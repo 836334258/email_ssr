@@ -3,7 +3,7 @@ import { PropType, CSSProperties, Prop } from 'vue'
 export const props = {
   href: {
     type: String,
-    required: true
+    required: false
   },
   alt: {
     type: String,
@@ -16,6 +16,6 @@ export const props = {
   },
   src: {
     type: String,
-    required: false
+    required: true
   }
 } as const
