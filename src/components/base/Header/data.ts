@@ -33,8 +33,8 @@ const headerData: Record<string, HeaderProp> = {
     fontColor: '#333333',
     background: '#fff',
     logoOption: {
-      src: 'https://mcusercontent.com/1330f49e4060849e9bede15d3/images/191575b3-b8c8-3eb1-3b6b-a99484217f21.png',
-      href: 'https://flexispot.co.uk/'
+      src: 'https://mcusercontent.com/1330f49e4060849e9bede15d3/images/51c116c9-e8fe-c64f-9923-57ed8b8aa9d2.png',
+      href: 'https://www.flexispot.de/'
     },
     navList: [
       {
@@ -42,12 +42,21 @@ const headerData: Record<string, HeaderProp> = {
         href: 'https://www.flexispot.de/hoehenverstellbarer-schreibtisch.html'
       },
       {
+        width:'70px'
+      },
+      {
         title: 'Stuhl',
         href: 'https://www.flexispot.de/stuhle.html'
       },
       {
+        width:'70px'
+      },
+      {
         title: 'FITNESS',
         href: 'https://www.flexispot.de/fitness.html'
+      },
+      {
+        width:'70px'
       },
       {
         title: 'Bürozubehör',

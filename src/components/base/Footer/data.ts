@@ -70,23 +70,23 @@ const footerData: Record<string, FooterProp> = {
     mediaLink: [
       {
         src: 'https://www.fleximounts.com/wp-content/uploads/2022/01/social1.png',
-        href: 'https://www.instagram.com/flexispot.it/'
+        href: 'https://www.instagram.com/flexispot.de/'
       },
       {
         src: 'https://www.fleximounts.com/wp-content/uploads/2022/01/social2.png',
-        href: 'https://www.facebook.com/flexispot.nick/'
+        href: 'https://www.facebook.com/FlexiSpotDeutschland/?ref=page_internal'
       },
       {
         src: 'https://www.fleximounts.com/wp-content/uploads/2022/01/social3.png',
-        href: 'https://www.youtube.com/channel/UCn0ilTvzmGM3cknWXfcALdg'
+        href: 'https://www.youtube.com/channel/UCiNF224lf8l_op5GYHYx2zA'
       },
       {
         src: 'https://www.fleximounts.com/wp-content/uploads/2022/01/social4.png',
-        href: 'https://twitter.com/flexispot_it'
+        href: 'https://twitter.com/FlexispotDE'
       },
       {
         src: 'https://mcusercontent.com/1330f49e4060849e9bede15d3/images/55dadd02-0ac0-acd9-7ca0-d5e172c493a9.png',
-        href: 'https://www.tiktok.com/@flexispotit'
+        href: 'https://www.tiktok.com/@flexispot.de'
       },
       {
         src: 'https://mcusercontent.com/1330f49e4060849e9bede15d3/images/868481fe-1afe-d867-2195-20970828f5ad.png',

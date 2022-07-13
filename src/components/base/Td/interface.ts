@@ -6,7 +6,15 @@ export const props = {
     type: String as PropType<Align>
   },
   style: {
-    type: [String,Object] as PropType<CSSProperties|string>
+    type: [String,Object] as PropType<CSSProperties|string>,
+    default:()=>({
+      'font-family':'Roboto',
+      'font-style': 'normal',
+      'font-weight': 400,
+      'font-size': '16px',
+      'line-height': '150%',
+      'color': '#515759'
+    })
   },
   width:{
     type:String,

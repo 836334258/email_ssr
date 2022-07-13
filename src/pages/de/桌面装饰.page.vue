@@ -24,7 +24,7 @@
             <locket-td width="33px"></locket-td>
             <locket-td>
               <locket-table>
-                <locket-tr heigh="46px"></locket-tr>
+                
                 <locket-tr>
                   <locket-td
                     style="
@@ -32,6 +32,7 @@
                       font-style: normal;
                       font-weight: 700;
                       font-size: 24px;
+                      color:#363D4A;
                     "
                     >Lebendige DIY-<br />Dekorationen</locket-td
                   >
@@ -90,7 +91,7 @@
           <locket-tr>
             <locket-td>
               <locket-table>
-                <locket-tr heigh="46px"></locket-tr>
+               
                 <locket-tr>
                   <locket-td
                     style="
@@ -98,6 +99,7 @@
                       font-style: normal;
                       font-weight: 700;
                       font-size: 24px;
+                      color:#363D4A;
                     "
                     >Klappbarer <br />Laptopständer</locket-td
                   >
@@ -114,7 +116,7 @@
                   <locket-td>
                     Vier Achsen aus Aluminiumlegierung zur Höhenverstellung
                     machen das Gestell stabiler und weniger wackelig. Das
-                    tragbare Gestell kann ohne Werkzeug</locket-td
+                    tragbare Gestell kann ohne Werkzeug<br/> platzsparend zusammengeklappt werden.</locket-td
                   ></locket-tr
                 >
                 <locket-tr> <locket-td height="10px"></locket-td></locket-tr>
@@ -171,7 +173,7 @@
             <locket-td width="33px"></locket-td>
             <locket-td>
               <locket-table>
-                <locket-tr heigh="46px"></locket-tr>
+               
                 <locket-tr>
                   <locket-td
                     style="
@@ -179,8 +181,9 @@
                       font-style: normal;
                       font-weight: 700;
                       font-size: 24px;
+                      color:#363D4A;
                     "
-                    >Ergonomisch-<br />einrichten</locket-td
+                    >Ergonomisch<br />einrichten</locket-td
                   >
                 </locket-tr>
                 <locket-tr> <locket-td height="10px"></locket-td></locket-tr>
@@ -233,7 +236,7 @@
           <locket-tr>
             <locket-td>
               <locket-table>
-                <locket-tr heigh="46px"></locket-tr>
+               
                 <locket-tr>
                   <locket-td
                     style="
@@ -241,8 +244,9 @@
                       font-style: normal;
                       font-weight: 700;
                       font-size: 24px;
+                      color:#363D4A;
                     "
-                    >Nutze Deinenr <br />Nutze Deinen</locket-td
+                    >Nutze Deinenr <br />Platz besser</locket-td
                   >
                 </locket-tr>
                 <locket-tr> <locket-td height="10px"></locket-td></locket-tr>

@@ -28,7 +28,7 @@ export const headerProp = {
   },
   textAlign:{
     type:String as PropType<Align>,
-    default:'center'
+    default:'left'
   },
   logoOption: {
     type: Object as PropType<LogoOption>,
@@ -36,7 +36,7 @@ export const headerProp = {
     default: () => {}
   },
   navList: {
-    type: Array as PropType<NavList[]>,
+    type: Array as PropType<Partial<NavList>[]>,
     required: true,
     default: () => []
   }
