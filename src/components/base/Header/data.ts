@@ -52,7 +52,7 @@ const headerData: Record<string, HeaderProp> = {
         width:'70px'
       },
       {
-        title: 'FITNESS',
+        title: 'Fitness',
         href: 'https://www.flexispot.de/fitness.html'
       },
       {
